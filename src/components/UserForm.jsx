@@ -6,7 +6,7 @@ export const UserForm = () => {
 
     return (
         <div>
-            <h3 className='rotate'>卐</h3>
+            <h3 className='rotate'>a</h3>
             <input placeholder='Input your name' value={user} onChange={(e) => setUser(e.target.value)}/>
             <button onClick={() => {setShow(user)}}>Submit</button>
             <p>{show}</p>
